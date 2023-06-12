@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "node-todo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "testapi": "mocha -b -t 12000000 tests/todo.test.js"
+  },
+  "author": "akshay padwal",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-validation": "^4.1.0",
+    "http-status": "^1.6.2",
+    "joi": "^17.9.2",
+    "mocha": "^10.2.0",
+    "request": "^2.88.2",
+    "supertest": "^6.3.3"
+  }
+}
