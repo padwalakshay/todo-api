@@ -5,9 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "testapi": "mocha -b -t 12000000 tests/todo.test.js"
+    "test": "mocha -b -t 12000000 tests/todo.test.js",
+    "start": "node index.js"
   },
   "author": "akshay padwal",
   "license": "ISC",
